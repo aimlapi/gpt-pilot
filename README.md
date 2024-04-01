@@ -102,7 +102,7 @@ If you are interested in our learnings during this project, you can check [our l
 Otherwise, you can use the CLI tool.
 
 After you have Python and (optionally) PostgreSQL installed, follow these steps:
-1. `git clone https://github.com/Pythagora-io/gpt-pilot.git` (clone the repo)
+1. `git clone https://github.com/aimlapi/gpt-pilot` (clone the repo)
 2. `cd gpt-pilot`
 3. `python -m venv pilot-env` (create a virtual environment)
 4. `source pilot-env/bin/activate` (or on Windows `pilot-env\Scripts\activate`) (activate the virtual environment)
