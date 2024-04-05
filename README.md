@@ -1,33 +1,11 @@
 <div align="center">
 
-# 🧑‍✈️ GPT PILOT 🧑‍✈️
+# 🧑‍✈️ AI/ML API GPT PILOT 🧑‍✈️
 
 </div>
 
 ---
 
-<div align="center">
-
-[![Discord Follow](https://dcbadge.vercel.app/api/server/HaqXugmxr9?style=flat)](https://discord.gg/HaqXugmxr9)
-[![GitHub Repo stars](https://img.shields.io/github/stars/Pythagora-io/gpt-pilot?style=social)](https://github.com/Pythagora-io/gpt-pilot)
-[![Twitter Follow](https://img.shields.io/twitter/follow/HiPythagora?style=social)](https://twitter.com/HiPythagora)
-
-</div>
-
----
-
-<div align="center">
-<a href="https://www.ycombinator.com/" target="_blank"><img src="https://s3.amazonaws.com/assets.pythagora.ai/yc/PNG/Black.png" alt="Pythagora-io%2Fgpt-pilot | Trendshift" style="width: 250px; height: 93px;"/></a>
-</div>
-<br>
-<div align="center">
-<a href="https://trendshift.io/repositories/466" target="_blank"><img src="https://trendshift.io/api/badge/repositories/466" alt="Pythagora-io%2Fgpt-pilot | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-</div>
-
-<br>
-<br>
-
-<div align="center">
 
 ### GPT Pilot doesn't just generate code, it builds apps!
 
@@ -36,27 +14,10 @@
 ---
 <div align="center">
 
-[![See it in action](https://i3.ytimg.com/vi/4g-1cPGK0GA/maxresdefault.jpg)](https://youtu.be/4g-1cPGK0GA)
-
-(click to open the video in YouTube) (1:40min)
+[Get Your AI/ML API Key Today](https://aimlapi.com/)
 
 </div>
 
----
-
-<div align="center">
-
-<a href="vscode:extension/PythagoraTechnologies.gpt-pilot-vs-code" target="_blank"><img src="https://github.com/Pythagora-io/gpt-pilot/assets/10895136/5792143e-77c7-47dd-ad96-6902be1501cd" alt="Pythagora-io%2Fgpt-pilot | Trendshift" style="width: 185px; height: 55px;" width="185" height="55"/></a>
-
-</div>
-
-GPT Pilot is the core technology for the [Pythagora VS Code extension](https://bit.ly/3IeZxp6) that aims to provide **the first real AI developer companion**. Not just an autocomplete or a helper for PR messages but rather a real AI developer that can write full features, debug them, talk to you about issues, ask for review, etc.
-
----
-
-📫 If you would like to get updates on future releases or just get in touch, join our [Discord server](https://discord.gg/HaqXugmxr9) or you [can add your email here](http://eepurl.com/iD6Mpo). 📬
-
----
 
 <!-- TOC -->
 * [🔌 Requirements](#-requirements)
@@ -75,9 +36,7 @@ GPT Pilot is the core technology for the [Pythagora VS Code extension](https://b
 
 GPT Pilot aims to research how much LLMs can be utilized to generate fully working, production-ready apps while the developer oversees the implementation.
 
-**The main idea is that AI can write most of the code for an app (maybe 95%), but for the rest, 5%, a developer is and will be needed until we get full AGI**.
-
-If you are interested in our learnings during this project, you can check [our latest blog posts](https://blog.pythagora.ai/2024/02/19/gpt-pilot-what-did-we-learn-in-6-months-of-working-on-a-codegen-pair-programmer/).
+**The main idea is that AI can write most of the code for an app (maybe 95%), but for the rest, 5%, a developer is and will be needed until we get full AGI**
 
 ---
 
@@ -110,8 +69,8 @@ After you have Python and (optionally) PostgreSQL installed, follow these steps:
 6. `cd pilot`
 7. `mv .env.example .env` (or on Windows `copy .env.example .env`) (create the .env file)
 8. Add your environment to the `.env` file:
-   - LLM Provider (OpenAI/Azure/Openrouter)
-   - Your API key
+   - LLM Provider (AI/ML API/OpenAI/Azure/Openrouter)
+   - Your API key 
    - database settings: SQLite/PostgreSQL (to change from SQLite to PostgreSQL, just set `DATABASE_TYPE=postgres`)
    - optionally set IGNORE_PATHS for the folders which shouldn't be tracked by GPT Pilot in workspace, useful to ignore folders created by compilers (i.e. `IGNORE_PATHS=folder1,folder2,folder3`)
 9. `python main.py` (start GPT Pilot)
@@ -221,8 +180,3 @@ Other than the research, GPT Pilot needs to be debugged to work in different sce
 
 ## 📊 Telemetry
 To improve GPT Pilot, we are tracking some events from which you can opt out at any time. You can read more about it [here](./docs/TELEMETRY.md).
-
-# 🔗 Connect with us
-🌟 As an open-source tool, it would mean the world to us if you starred the GPT-pilot repo 🌟
-
-💬 Join [the Discord server](https://discord.gg/HaqXugmxr9) to get in touch.
